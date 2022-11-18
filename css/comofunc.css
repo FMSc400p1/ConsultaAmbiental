@@ -1,0 +1,25 @@
+.func{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-top: 10%; */
+    height: 400px;
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 64px;
+    font-weight: normal;
+    /* background-color: red; */
+}
+.descricao{
+    margin: auto;
+    display: flex;
+    padding:5%; 
+    text-align: justify;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 50%;
+    height: 80vh;
+    background-color:rgba(144, 238, 144,0.3);
+    border-radius: 8px;
+}
