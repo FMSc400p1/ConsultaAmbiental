@@ -12,14 +12,20 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/comofunc.css">
     <link rel="stylesheet" href="./css/ajuda.css">
+    <link rel="stylesheet" href="./css/consulta.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 </head>
 
-<body
-    style="background-image: url(img/meioAmbiente.jpg);background-repeat: no-repeat;background-size:1680px 750px;background-attachment: fixed;">
+<body>
 
     <header class="header">
         <div class="header-titulo"><a href="./index.html">Consulta Ambiental</a></div>
@@ -27,7 +33,7 @@
             <li class="header-itens-area"><a href="#InicioFunc">Como funciona</a></li>
             <li class="header-itens-area"><a href="#ajuda">Ajuda</a></li>
             <li class="header-itens-area"><a href="#">Consulta</a></li>
-            <li class="header-itens-area"><a href="#">Sobre nós</a></li>
+            <li class="header-itens-area"><a href="#nos">Sobre nós</a></li>
         </div>
     </header>
 
@@ -42,21 +48,7 @@
             tempore consequuntur, esse, laboriosam dolorem molestiae dolor corrupti maxime quis. Necessitatibus
             quibusdam dolor nesciunt recusandae natus?
             <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt totam ipsam atque doloremque optio dicta
-            perspiciatis saepe neque, sit qui impedit sapiente amet, quaerat aut labore facere obcaecati tempore ab.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, aliquid exercitationem alias laudantium minus
-            tempore consequuntur, esse, laboriosam dolorem molestiae dolor corrupti maxime quis. Necessitatibus
-            quibusdam dolor nesciunt recusandae natus?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt totam ipsam atque doloremque optio dicta
-            perspiciatis saepe neque, sit qui impedit sapiente amet, quaerat aut labore facere obcaecati tempore ab.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, aliquid exercitationem alias laudantium minus
-            tempore consequuntur, esse, laboriosam dolorem molestiae dolor corrupti maxime quis. Necessitatibus
-            quibusdam dolor nesciunt recusandae natus?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt totam ipsam atque doloremque optio dicta
-            perspiciatis saepe neque, sit qui impedit sapiente amet, quaerat aut labore facere obcaecati tempore ab.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, aliquid exercitationem alias laudantium minus
-            tempore consequuntur, esse, laboriosam dolorem molestiae dolor corrupti maxime quis. Necessitatibus
-            quibusdam dolor nesciunt recusandae natus?
+
             <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt totam ipsam atque doloremque optio dicta
             perspiciatis saepe neque, sit qui impedit sapiente amet, quaerat aut labore facere obcaecati tempore ab.
@@ -121,6 +113,70 @@
             facilis aspernatur?
         </div>
     </section>
+
+    <section class="consulta">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Coisas possíveis
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <img src="../../../../../Downloads/Ametysta fries.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
+                        this being filled with some actual content.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                        the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                        exciting happening here in terms of content, but just filling up the space to make it look, at
+                        least at first glance, a bit more representative of how this would look in a real-world
+                        application.</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="nos">
+        <h2>Desenvolvido por Felipe Moraes e Sérgio</h2>
+        <div> 
+            <h3> Integrantes da Equipe </h3>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
 

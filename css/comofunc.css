@@ -16,10 +16,10 @@
     display: flex;
     padding:5%; 
     text-align: justify;
-    /* align-items: center; */
-    /* justify-content: center; */
-    width: 50%;
-    height: 90vh;
+    align-items: center;
+    justify-content: center;
+     width: 50%;
+   /* height: 40vh; */
     background-color:rgba(144, 238, 144,0.3);
     border-radius: 8px;
     font-size: 18px;
@@ -28,4 +28,5 @@
 }
 .funcTitulo{
     color: white;
+    font-size: 72px;
 }
