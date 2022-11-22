@@ -25,8 +25,12 @@
 
 
     <style>
+        button.accordion-button{
+            background-color: rgb(146, 223, 185);
+        }
+
         button.accordion-button.collapsed::after{
-            margin-left: 100vh;
+            margin-left: 90vh;
         }
     </style>
 </head>
@@ -74,7 +78,7 @@
         <div class="blocoAjuda">
             <h2>Como isso contribui para o Amazonas</h2>
         </div>
-        <div class="ajudaTopicos">
+        <div class="ajudaTopicos text-white">
             <li>vantagens</li>
             <li>vantagens</li>
             <li>vantagens</li>
@@ -83,7 +87,7 @@
         </div>
     </section>
     <section class="ajudaTextin">
-        <div class="ajudaTextinComentario">
+        <div class="ajudaTextinComentario text-white">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae eligendi, reiciendis eaque reprehenderit
             quos in, est magnam dignissimos facilis illo ratione assumenda nesciunt quam. Fugiat error nemo doloremque
             facilis aspernatur?
@@ -101,7 +105,7 @@
             facilis aspernatur?
         </div>
 
-        <div class="ajudaTextinComentario">
+        <div class="ajudaTextinComentario text-white">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae eligendi, reiciendis eaque reprehenderit
             quos in, est magnam dignissimos facilis illo ratione assumenda nesciunt quam. Fugiat error nemo doloremque
             facilis aspernatur?
@@ -124,7 +128,7 @@
         <div class="accordion" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button mx-auto d-block text-center" type="button" data-bs-toggle="collapse"
+                    <button class="accordion-button mx-auto d-block text-center text-black" type="button" data-bs-toggle="collapse"
                         data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                         aria-controls="panelsStayOpen-collapseOne">
                     <div class="">
@@ -138,7 +142,7 @@
                         <div class="card" style="width: 18rem;">
                             <img src="./img/bombeiro.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title">Card title
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                               <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
@@ -146,7 +150,7 @@
                           <div class="card" style="width: 18rem;">
                             <img src="./img/bombeiro.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title">Card title
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                               <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
@@ -154,7 +158,7 @@
                           <div class="card" style="width: 18rem;">
                             <img src="./img/bombeiro.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
+                              <h5 class="card-title">Card title
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                               <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
@@ -166,41 +170,81 @@
 
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    <button class="accordion-button mx-auto d-block text-center text-black" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
                         aria-controls="panelsStayOpen-collapseTwo">
-                        Accordion Item #2
+                    <div class="">
+                        <h6>Serviços</h6>
+                    </div>
                     </button>
                 </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
                     aria-labelledby="panelsStayOpen-headingTwo">
-                    <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                    <div class="accordion-body d-flex justify-content-between">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/bombeiro.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="./img/bombeiro.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="./img/bombeiro.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
             <div class="accordion-item">
                 <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    <button class="accordion-button mx-auto d-block text-center text-black" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
                         aria-controls="panelsStayOpen-collapseThree">
-                        Accordion Item #3
+                    <div class="">
+                        <h6>Serviços</h6>
+                    </div>
                     </button>
                 </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show"
                     aria-labelledby="panelsStayOpen-headingThree">
-                    <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                        collapse plugin adds the appropriate classes that we use to style each element. These classes
-                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                        that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                        does limit overflow.
+                    <div class="accordion-body d-flex justify-content-between">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/bombeiro.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="./img/bombeiro.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="./img/bombeiro.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -209,20 +253,34 @@
     </section>
 
     <footer class="footer" id="nos">
-        <h2>Desenvolvido por Felipe Moraes e Sérgio</h2>
-        <div class="integrantes">
-            <h3> Integrantes da Equipe </h3>
-            <h5>Arnold Fernandes Santos</h5>
-            <h5>Carlos Augusto Macêdo Do Nascimento</h5>
-            <h5>Carlos Raphael da Silva e Silva</h5>
-            <h5>Felipe Moraes e Silva</h5>
-            <h5>Gustavo itiro Barbosa Sakiyama</h5>
-            <h5>Kallil Renan Michiles</h5>
-            <h5>Sérgio Vinícius de Santana Fernandes></h5>
-            <h5>Raphael Eduardo Santos de Souza</h5>
-            <h5>Williams Vieira Alves</h5>
-
-        </div>
+        <button type="button" class="btn text-black bg-light bg-opacity-10" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Clique aqui para ver nossa equipe
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5 text-black" id="exampleModalLabel">Equipe</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-black text-center">
+                    <h5>Arnold Fernandes Santos</h5>
+                    <h5>Carlos Augusto Macêdo Do Nascimento</h5>
+                    <h5>Carlos Raphael da Silva e Silva</h5>
+                    <h5>Felipe Moraes e Silva</h5>
+                    <h5>Gustavo itiro Barbosa Sakiyama</h5>
+                    <h5>Kallil Renan Michiles</h5>
+                    <h5>Sérgio Vinícius de Santana Fernandes</h5>
+                    <h5>Raphael Eduardo Santos de Souza</h5>
+                    <h5>Williams Vieira Alves</h5>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary mx-auto" data-bs-dismiss="modal">Sair</button>
+                </div>
+            </div>
+            </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
